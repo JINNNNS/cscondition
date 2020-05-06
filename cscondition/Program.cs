@@ -53,13 +53,13 @@ namespace cscondition
                 Console.WriteLine("아침 먹을 시간입니다");
             }
             else if (DateTime.Now.Hour < 15)
-                {
-                    Console.WriteLine("점심 먹을 시간입니다");
-                }
-                else
-                {
-                    Console.WriteLine("저녁 먹을 시간입니다.");
-                }
+            {
+                Console.WriteLine("점심 먹을 시간입니다");
+            }
+            else
+            {
+                Console.WriteLine("저녁 먹을 시간입니다.");
+            }
 
             Console.Write("이번 달은 몇 월인가요:");
             int input2 = int.Parse(Console.ReadLine());
@@ -90,7 +90,17 @@ namespace cscondition
                     Console.WriteLine("대체 어느 행성에 살고 계십니까?");
                     break;
             }
+            Console.Write("입력: ");
+            String line = Console.ReadLine();
+            if (line.Contains("안녕"))
+            {
+                Console.WriteLine("안녕하세요~~~!");
 
+            }
+            else
+            {
+                Console.WriteLine("^^* 인사 안해요?");
+            }
 
             }
 
