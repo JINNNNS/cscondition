@@ -130,7 +130,7 @@ namespace cscondition
                         default:
                             Console.WriteLine("다른 키를 눌렀습니다.");
                             break;
-                    }
+                    } 
                     break;
             }
             }
